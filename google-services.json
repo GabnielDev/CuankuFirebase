@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841461818496",
+    "firebase_url": "https://cuanku-716a5.firebaseio.com",
+    "project_id": "cuanku-716a5",
+    "storage_bucket": "cuanku-716a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841461818496:android:eba165b28b655aec157265",
+        "android_client_info": {
+          "package_name": "com.skripsi.cuanku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841461818496-r4mu7u5acgsj6ssjuvebo40u661egum0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skripsi.cuanku",
+            "certificate_hash": "d8fe3741f50862074a8174dead713665e67da75a"
+          }
+        },
+        {
+          "client_id": "841461818496-a480u60oas9i2v58njr205ep29jnk81o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvoO40JiTVi9kQP_fQVtFQLEMXkjDSDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841461818496-a480u60oas9i2v58njr205ep29jnk81o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".tabungan.TambahTabunganActivity">
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Target"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnertabungan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_input_form_biru"
+            android:elevation="3dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tambah Tabungan"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pilihtanggalmenabung"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_calendar_blue" />
+
+            <EditText
+                android:id="@+id/txtsettanggalmenabung"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_input_form_biru"
+                android:editable="false"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Nominal"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtNominalTabungan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_input_form_biru"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:hint="tabung"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+<!--        <EditText-->
+<!--            android:hint="nominal"-->
+<!--            android:id="@+id/edtNominal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:background="@drawable/bg_input_form_biru"-->
+<!--            android:paddingStart="15dp"-->
+<!--            android:paddingEnd="15dp"-->
+<!--            android:textSize="20sp" />-->
+
+        <EditText
+            android:hint="nama"
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_input_form_biru"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/rvTarget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ln"></androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btnTambahTabungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bg_btnkotak_blue"
+        android:text="Tambah Tabungan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

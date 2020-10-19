@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/black"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cvketerangancatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/cvjumlahcatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp.000.000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cvtanggalcatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00.00.00"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
